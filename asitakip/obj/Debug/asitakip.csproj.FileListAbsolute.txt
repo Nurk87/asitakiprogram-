@@ -1,0 +1,13 @@
+C:\Users\Elif\source\repos\dokunma\asitakip\bin\Debug\asitakip.exe.config
+C:\Users\Elif\source\repos\dokunma\asitakip\bin\Debug\asitakip.exe
+C:\Users\Elif\source\repos\dokunma\asitakip\bin\Debug\asitakip.pdb
+C:\Users\Elif\source\repos\dokunma\asitakip\obj\Debug\asitakip.csproj.AssemblyReference.cache
+C:\Users\Elif\source\repos\dokunma\asitakip\obj\Debug\asitakip.Form1.resources
+C:\Users\Elif\source\repos\dokunma\asitakip\obj\Debug\asitakip.Form2.resources
+C:\Users\Elif\source\repos\dokunma\asitakip\obj\Debug\asitakip.Form3.resources
+C:\Users\Elif\source\repos\dokunma\asitakip\obj\Debug\asitakip.Properties.Resources.resources
+C:\Users\Elif\source\repos\dokunma\asitakip\obj\Debug\asitakip.csproj.GenerateResource.cache
+C:\Users\Elif\source\repos\dokunma\asitakip\obj\Debug\asitakip.csproj.CoreCompileInputs.cache
+C:\Users\Elif\source\repos\dokunma\asitakip\obj\Debug\asitakip.exe
+C:\Users\Elif\source\repos\dokunma\asitakip\obj\Debug\asitakip.pdb
+C:\Users\Elif\source\repos\dokunma\asitakip\obj\Debug\asitakip.exe.config
