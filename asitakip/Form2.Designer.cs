@@ -60,6 +60,7 @@ namespace asitakip
             this.babaadi = new System.Windows.Forms.TextBox();
             this.saat = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -330,12 +331,23 @@ namespace asitakip
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(187, 329);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(76, 39);
+            this.button1.TabIndex = 32;
+            this.button1.Text = "LİSTE";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1118, 465);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.saat);
             this.Controls.Add(this.babaadi);
             this.Controls.Add(this.anneadi);
@@ -401,5 +413,6 @@ namespace asitakip
         private System.Windows.Forms.TextBox babaadi;
         private System.Windows.Forms.Label saat;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Button button1;
     }
 }

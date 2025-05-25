@@ -2,15 +2,7 @@
 
 namespace asitakip
 {
-    public class Kayit
-    {
-        public string Tc { get; set; }
-        public string Ad { get; set; }
-        public string Soyad { get; set; }
-        public DateTime DogumTarihi { get; set; }
-        public string Cinsiyet { get; set; }
-        public string AsiTuru { get; set; }
-    }
+    
 
     partial class Form3
     {
