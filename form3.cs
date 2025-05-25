@@ -31,13 +31,35 @@ namespace asitakip
             Kayit.Columns[7].Name = "Aşı Tarihi";
             Kayit.Columns[8].Name = "Aşı Adı";
             Kayit.Columns[9].Name = "Dozu";
+            VerileriYukle();
 
-            
 
         }
         public void KayıtEkle(string tc, string adi, string soyadi, string anneadi, string babaadi, string cinsiyet, string dtarih, string atarih, string asiadi, string dozu)
         {
             Kayit.Rows.Add(tc,adi,soyadi,anneadi,babaadi,cinsiyet,dtarih,atarih,asiadi,dozu);
+        }
+        public void VerileriYukle()
+        {
+            List<Kayit> kayitlar = Form2.JsonVeriIslemleri.Oku(); // JSON’dan oku
+
+            Kayit.Rows.Clear(); // Önce DataGridView temizlenir
+
+            foreach (var k in kayitlar)
+            {
+                Kayit.Rows.Add(
+                    k.Tc,
+                    k.Adi,
+                    k.Soyadi,
+                    k.AnneAdi,
+                    k.BabaAdi,
+                    k.Cinsiyet,
+                    k.DogumTarihi,
+                    k.AsiTarihi,
+                    k.AsiAdi,
+                    k.Doz
+                );
+            }
         }
 
         private void cikis_Click(object sender, EventArgs e)
